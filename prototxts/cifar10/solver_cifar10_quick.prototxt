@@ -1,0 +1,9 @@
+net: "path/to/your/cifar10_quick_caffe_trainer.prototxt"
+base_lr: 0.001
+lr_policy: "fixed"
+display: 100
+average_loss: 100
+momentum: 0.9
+weight_decay: 0.0005
+solver_mode: GPU
+#debug_info: true
